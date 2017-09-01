@@ -3,17 +3,17 @@ header {
   border: 2px solid #064277;
   border-radius: 20px;
   margin: 10px auto;
-  padding: 10px;
-  background-color: aliceblue;
+  padding: 50px;
+  background-color: lightblue;
   text-align: center; }
 
 body {
   width: 600px;
   margin: auto;
-  font-family: sans-serif;
+  font-family: verdana;
   font-size: 1em;
   font-style: oblique;
-  background-color: #dadadb; }
+  background-color: aliceblue; }
 
 h1 {
   color: #58a0e0; }
@@ -23,45 +23,46 @@ h1 {
   border-radius: 20px;
   margin: 10px auto;
   padding: 10px;
-  background-color: aliceblue; }
+  background-color: lightblue; }
 
 #list {
   border: 2px solid #064277;
   border-radius: 20px;
-  background-color: aliceblue; }
+  background-color: lightblue; }
 
 h2 {
   color: #064277; }
 
 h3 {
-  margin-left: 50px;
+  margin-left: 150px;
   color: #58a0e0; }
 
 ul {
-  margin-left: 50px; }
+  margin-left: 150px; }
 
 p {
-  font-family: serif;
+  font-family: verdana;
   font-style: normal; }
 
 .samplepara {
   border: 3px solid #58a0e0;
   border-radius: 5px;
-  padding: 10px;
-  background-color: white; }
+  padding: 50px;
+  background-color: lightblue; }
 
 footer {
   border: 2px solid #064277;
   border-radius: 20px;
   margin: 10px auto;
   padding: 10px;
-  background-color: aliceblue; }
+  background-color: lightblue; }
 
 #footer {
-  font-size: .75em;
-  font-style: italic;
-  font-weight: bold;
   color: #064277;
   text-align: center; }
+  #footer font {
+    size: .75em;
+    style: italic;
+    weight: bold; }
 
 /*# sourceMappingURL=quiz_style.css.map */
