@@ -4,10 +4,16 @@ $bgcolor: lightblue;
 $font: verdana;
 $left: 150px;
 $padding: 50px;
+$border: gray dotted thick;
+
+//SASS MIXIN 
+@mixin test($border: gray dotted thick){
+    border-radius: $border;
+}
 
 header {
     border: 2px solid #064277;
-    border-radius: 20px;
+    @include test;
     margin: 10px auto;
     padding: $padding;
     background-color: $bgcolor;
@@ -30,7 +36,7 @@ h1 {
 
 #content {
     border: 2px solid #064277;
-    border-radius: 20px;
+   @include test;
     margin: 10px auto;
     padding: 10px;
     background-color: $bgcolor;
@@ -38,7 +44,7 @@ h1 {
 
 #list{
     border: 2px solid #064277;
-    border-radius: 20px;
+     @include test;
     background-color: $bgcolor;
 }
 
@@ -62,14 +68,14 @@ p{
 
 .samplepara {
     border: 3px solid #58a0e0;
-    border-radius: 5px;
+     @include test;
     padding: $padding;
     background-color: $bgcolor;
 }
 
 footer {
     border: 2px solid #064277;
-    border-radius: 20px;
+     @include test;
     margin: 10px auto;
     padding: 10px;
     background-color: $bgcolor;
